@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF3180D2C414F430019039F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3180C2C414F430019039F /* AppDelegate.swift */; };
+		FFF3180F2C414F430019039F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3180E2C414F430019039F /* SceneDelegate.swift */; };
+		FFF318112C414F430019039F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF318102C414F430019039F /* ViewController.swift */; };
+		FFF318142C414F430019039F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FFF318132C414F430019039F /* Base */; };
+		FFF318162C414F450019039F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF318152C414F450019039F /* Assets.xcassets */; };
+		FFF318192C414F450019039F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FFF318182C414F450019039F /* Base */; };
+		FFF318242C414F450019039F /* ImageChangeWithButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF318232C414F450019039F /* ImageChangeWithButtonTests.swift */; };
+		FFF3182E2C414F450019039F /* ImageChangeWithButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3182D2C414F450019039F /* ImageChangeWithButtonUITests.swift */; };
+		FFF318302C414F450019039F /* ImageChangeWithButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3182F2C414F450019039F /* ImageChangeWithButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF318202C414F450019039F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF318012C414F430019039F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF318082C414F430019039F;
+			remoteInfo = ImageChangeWithButton;
+		};
+		FFF3182A2C414F450019039F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF318012C414F430019039F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF318082C414F430019039F;
+			remoteInfo = ImageChangeWithButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF318092C414F430019039F /* ImageChangeWithButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageChangeWithButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF3180C2C414F430019039F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF3180E2C414F430019039F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFF318102C414F430019039F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF318132C414F430019039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF318152C414F450019039F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF318182C414F450019039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF3181A2C414F450019039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF3181F2C414F450019039F /* ImageChangeWithButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageChangeWithButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF318232C414F450019039F /* ImageChangeWithButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChangeWithButtonTests.swift; sourceTree = "<group>"; };
+		FFF318292C414F450019039F /* ImageChangeWithButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageChangeWithButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF3182D2C414F450019039F /* ImageChangeWithButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChangeWithButtonUITests.swift; sourceTree = "<group>"; };
+		FFF3182F2C414F450019039F /* ImageChangeWithButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChangeWithButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF318062C414F430019039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF3181C2C414F450019039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF318262C414F450019039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF318002C414F430019039F = {
+			isa = PBXGroup;
+			children = (
+				FFF3180B2C414F430019039F /* ImageChangeWithButton */,
+				FFF318222C414F450019039F /* ImageChangeWithButtonTests */,
+				FFF3182C2C414F450019039F /* ImageChangeWithButtonUITests */,
+				FFF3180A2C414F430019039F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF3180A2C414F430019039F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF318092C414F430019039F /* ImageChangeWithButton.app */,
+				FFF3181F2C414F450019039F /* ImageChangeWithButtonTests.xctest */,
+				FFF318292C414F450019039F /* ImageChangeWithButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF3180B2C414F430019039F /* ImageChangeWithButton */ = {
+			isa = PBXGroup;
+			children = (
+				FFF3180C2C414F430019039F /* AppDelegate.swift */,
+				FFF3180E2C414F430019039F /* SceneDelegate.swift */,
+				FFF318102C414F430019039F /* ViewController.swift */,
+				FFF318122C414F430019039F /* Main.storyboard */,
+				FFF318152C414F450019039F /* Assets.xcassets */,
+				FFF318172C414F450019039F /* LaunchScreen.storyboard */,
+				FFF3181A2C414F450019039F /* Info.plist */,
+			);
+			path = ImageChangeWithButton;
+			sourceTree = "<group>";
+		};
+		FFF318222C414F450019039F /* ImageChangeWithButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF318232C414F450019039F /* ImageChangeWithButtonTests.swift */,
+			);
+			path = ImageChangeWithButtonTests;
+			sourceTree = "<group>";
+		};
+		FFF3182C2C414F450019039F /* ImageChangeWithButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF3182D2C414F450019039F /* ImageChangeWithButtonUITests.swift */,
+				FFF3182F2C414F450019039F /* ImageChangeWithButtonUITestsLaunchTests.swift */,
+			);
+			path = ImageChangeWithButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF318082C414F430019039F /* ImageChangeWithButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF318332C414F450019039F /* Build configuration list for PBXNativeTarget "ImageChangeWithButton" */;
+			buildPhases = (
+				FFF318052C414F430019039F /* Sources */,
+				FFF318062C414F430019039F /* Frameworks */,
+				FFF318072C414F430019039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageChangeWithButton;
+			productName = ImageChangeWithButton;
+			productReference = FFF318092C414F430019039F /* ImageChangeWithButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF3181E2C414F450019039F /* ImageChangeWithButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF318362C414F450019039F /* Build configuration list for PBXNativeTarget "ImageChangeWithButtonTests" */;
+			buildPhases = (
+				FFF3181B2C414F450019039F /* Sources */,
+				FFF3181C2C414F450019039F /* Frameworks */,
+				FFF3181D2C414F450019039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF318212C414F450019039F /* PBXTargetDependency */,
+			);
+			name = ImageChangeWithButtonTests;
+			productName = ImageChangeWithButtonTests;
+			productReference = FFF3181F2C414F450019039F /* ImageChangeWithButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF318282C414F450019039F /* ImageChangeWithButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF318392C414F450019039F /* Build configuration list for PBXNativeTarget "ImageChangeWithButtonUITests" */;
+			buildPhases = (
+				FFF318252C414F450019039F /* Sources */,
+				FFF318262C414F450019039F /* Frameworks */,
+				FFF318272C414F450019039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF3182B2C414F450019039F /* PBXTargetDependency */,
+			);
+			name = ImageChangeWithButtonUITests;
+			productName = ImageChangeWithButtonUITests;
+			productReference = FFF318292C414F450019039F /* ImageChangeWithButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF318012C414F430019039F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FFF318082C414F430019039F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FFF3181E2C414F450019039F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FFF318082C414F430019039F;
+					};
+					FFF318282C414F450019039F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FFF318082C414F430019039F;
+					};
+				};
+			};
+			buildConfigurationList = FFF318042C414F430019039F /* Build configuration list for PBXProject "ImageChangeWithButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF318002C414F430019039F;
+			productRefGroup = FFF3180A2C414F430019039F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF318082C414F430019039F /* ImageChangeWithButton */,
+				FFF3181E2C414F450019039F /* ImageChangeWithButtonTests */,
+				FFF318282C414F450019039F /* ImageChangeWithButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF318072C414F430019039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF318162C414F450019039F /* Assets.xcassets in Resources */,
+				FFF318192C414F450019039F /* Base in Resources */,
+				FFF318142C414F430019039F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF3181D2C414F450019039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF318272C414F450019039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF318052C414F430019039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF318112C414F430019039F /* ViewController.swift in Sources */,
+				FFF3180D2C414F430019039F /* AppDelegate.swift in Sources */,
+				FFF3180F2C414F430019039F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF3181B2C414F450019039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF318242C414F450019039F /* ImageChangeWithButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF318252C414F450019039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF318302C414F450019039F /* ImageChangeWithButtonUITestsLaunchTests.swift in Sources */,
+				FFF3182E2C414F450019039F /* ImageChangeWithButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF318212C414F450019039F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF318082C414F430019039F /* ImageChangeWithButton */;
+			targetProxy = FFF318202C414F450019039F /* PBXContainerItemProxy */;
+		};
+		FFF3182B2C414F450019039F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF318082C414F430019039F /* ImageChangeWithButton */;
+			targetProxy = FFF3182A2C414F450019039F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF318122C414F430019039F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF318132C414F430019039F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF318172C414F450019039F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF318182C414F450019039F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF318312C414F450019039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF318322C414F450019039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF318342C414F450019039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageChangeWithButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.ImageChangeWithButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF318352C414F450019039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageChangeWithButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.ImageChangeWithButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFF318372C414F450019039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.ImageChangeWithButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageChangeWithButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageChangeWithButton";
+			};
+			name = Debug;
+		};
+		FFF318382C414F450019039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.ImageChangeWithButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageChangeWithButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageChangeWithButton";
+			};
+			name = Release;
+		};
+		FFF3183A2C414F450019039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.ImageChangeWithButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageChangeWithButton;
+			};
+			name = Debug;
+		};
+		FFF3183B2C414F450019039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.ImageChangeWithButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageChangeWithButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF318042C414F430019039F /* Build configuration list for PBXProject "ImageChangeWithButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF318312C414F450019039F /* Debug */,
+				FFF318322C414F450019039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF318332C414F450019039F /* Build configuration list for PBXNativeTarget "ImageChangeWithButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF318342C414F450019039F /* Debug */,
+				FFF318352C414F450019039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF318362C414F450019039F /* Build configuration list for PBXNativeTarget "ImageChangeWithButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF318372C414F450019039F /* Debug */,
+				FFF318382C414F450019039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF318392C414F450019039F /* Build configuration list for PBXNativeTarget "ImageChangeWithButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF3183A2C414F450019039F /* Debug */,
+				FFF3183B2C414F450019039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF318012C414F430019039F /* Project object */;
+}
